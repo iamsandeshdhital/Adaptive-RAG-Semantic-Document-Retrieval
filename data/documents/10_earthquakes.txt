@@ -1,0 +1,73 @@
+---
+title: Earthquakes and Seismic Waves
+doc_id: earthquakes
+topic: earth science
+source: Adaptive-RAG teaching corpus (original text, plain-text format with no section headings)
+---
+
+An earthquake is the shaking of the ground produced by the sudden release of energy
+stored in rock. Tectonic plates move continuously, but friction locks their boundaries
+in place, so stress accumulates in the surrounding rock over years or centuries. When
+the stress exceeds the strength of the rock or the friction holding a fault, the fault
+slips abruptly and the stored elastic strain is released as seismic waves. This
+explanation is known as elastic rebound theory. The point underground where the rupture
+begins is the focus or hypocentre, and the point on the surface directly above it is the
+epicentre.
+
+Faults are classified by the direction of relative motion. A normal fault forms where
+the crust is being pulled apart and one block drops down relative to the other. A
+reverse or thrust fault forms under compression, pushing one block up over another, and
+the largest earthquakes ever recorded have occurred on the gently inclined thrust faults
+of subduction zones. A strike-slip fault accommodates horizontal sliding with little
+vertical movement, the San Andreas Fault in California being the standard example.
+Earthquake depth is itself informative, since shallow events occur in all settings but
+only subduction zones generate the deep earthquakes found hundreds of kilometres below
+the surface.
+
+Seismic waves come in two families. Body waves travel through the interior of the
+planet. The faster of the two, the primary or P wave, is a compressional wave in which
+particles oscillate along the direction of travel, and it can pass through solids and
+liquids alike. The secondary or S wave is a shear wave in which particles move
+perpendicular to the direction of travel, and because liquids cannot support shear it
+cannot pass through the outer core. That fact produces the S wave shadow zone and was
+the original evidence that the core of the planet is liquid.
+
+Surface waves travel along the outside of the planet, arrive after the body waves and
+decay more slowly with distance. Love waves shear the ground horizontally while Rayleigh
+waves roll it in an elliptical motion rather like a water wave. Surface waves have larger
+amplitudes and longer periods than body waves, and they cause most of the destruction in
+a large shallow earthquake. The interval between the arrival of the P wave and the
+arrival of the S wave grows with distance from the source, so a single seismograph can
+estimate its distance from an earthquake, and readings from three or more stations can be
+combined to locate the epicentre by triangulation.
+
+Two different quantities describe the size of an earthquake and are often confused.
+Magnitude measures the energy released at the source and has a single value for a given
+event. The moment magnitude scale has replaced the older Richter scale for large
+earthquakes because the Richter scale saturates and cannot distinguish between the very
+largest events. Both are logarithmic: a rise of one unit corresponds to about a tenfold
+increase in wave amplitude and roughly a thirty-two-fold increase in released energy.
+Intensity, by contrast, measures the effects of shaking at a particular place, so a
+single earthquake produces many intensity values that decline with distance from the
+epicentre and are recorded on scales such as the Modified Mercalli scale.
+
+Damage depends on far more than magnitude. Ground conditions matter greatly, because
+loose sediment amplifies shaking compared with solid bedrock, and saturated sandy soils
+can lose their strength entirely and behave as a fluid in a process called liquefaction.
+Building height interacts with the frequency content of the shaking through resonance,
+so a given earthquake may damage mid-rise buildings while leaving low structures intact.
+Secondary hazards frequently cause more deaths than the shaking itself, including
+landslides, fires from ruptured gas mains, and tsunamis generated when a submarine thrust
+fault displaces the water column above it.
+
+Earthquakes cannot be predicted in the sense of naming a time, place and magnitude in
+advance, and decades of research into precursors have not produced a reliable method.
+What is possible is forecasting, which assigns probabilities to a region over a period of
+years using the historical record and measured strain accumulation, and early warning,
+which exploits the fact that the fast P wave arrives before the destructive surface
+waves. Detecting the P wave near the epicentre allows an automated alert to reach more
+distant areas seconds to tens of seconds before strong shaking, enough time to stop
+trains, close valves and take cover. Beyond that, loss is reduced mainly by engineering
+and planning: enforcing seismic building codes, retrofitting older structures with
+braces or base isolation, restricting construction on unstable ground, and rehearsing
+the emergency response.

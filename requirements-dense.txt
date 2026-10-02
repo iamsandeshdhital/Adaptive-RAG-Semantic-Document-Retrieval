@@ -1,0 +1,5 @@
+# Pretrained sentence embeddings and the FAISS index used for the reported
+# results. Installs PyTorch, so it is a large download.
+-r requirements.txt
+sentence-transformers>=3.0
+faiss-cpu>=1.8

@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Build artefacts
+build/
+dist/
+
+# Generated indexes and caches
+indexes/
+.cache/
+*.faiss
+*.npy
+
+# Generated experiment output (keep the committed snapshot in results/ if desired)
+results/**/*.png.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

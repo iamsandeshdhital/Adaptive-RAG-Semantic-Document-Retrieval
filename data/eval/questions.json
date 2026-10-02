@@ -1,0 +1,698 @@
+{
+  "name": "Adaptive-RAG evaluation set",
+  "authors": [
+    "Anurag Jha",
+    "Sandesh Dhital"
+  ],
+  "description": "Sixty questions over the ten-document teaching corpus. gold_doc_ids names the document or documents that contain the answer; answer_keywords are terms taken verbatim from those documents that must all appear in the retrieved context for the answer to be recoverable from it. 'kind' records how the question was written: 'lexical' reuses the vocabulary of the source, 'paraphrased' deliberately avoids it, 'multi_hop' needs material from two different sections of a document, and 'confusable' is worded so that its strongest keywords point at a document that does not hold the answer.",
+  "questions": [
+    {
+      "qid": "q01",
+      "question": "Where in the chloroplast do the light-dependent reactions take place?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "thylakoid"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q02",
+      "question": "Which enzyme fixes carbon dioxide in the Calvin cycle?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "rubisco"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q03",
+      "question": "Why do most leaves look green rather than red or blue?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "chlorophyll",
+        "reflects green light"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q04",
+      "question": "What happens to sugar production when a plant shuts its pores to hold on to water?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "stomata"
+      ],
+      "kind": "paraphrased",
+      "note": "Answer requires the limiting-factors discussion, not the reaction chemistry."
+    },
+    {
+      "qid": "q05",
+      "question": "Which carrier molecule from the light reactions is used by the enzyme that fixes carbon dioxide?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "nadph",
+        "rubisco"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q06",
+      "question": "What proportion of the water on the planet is salty ocean water?",
+      "gold_doc_ids": [
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "ninety-seven"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q07",
+      "question": "What do cloud droplets condense onto?",
+      "gold_doc_ids": [
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "condensation nuclei"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q08",
+      "question": "Why is the far side of a mountain range drier than the side the wind hits?",
+      "gold_doc_ids": [
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "rain shadow"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q09",
+      "question": "How long does a single water molecule usually stay up in the air?",
+      "gold_doc_ids": [
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "nine days"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q10",
+      "question": "How does water reach an aquifer, and what happens if it is taken out faster than that?",
+      "gold_doc_ids": [
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "percolate",
+        "water table"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q11",
+      "question": "What is the belt of volcanoes around the Pacific Ocean called?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "ring of fire"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q12",
+      "question": "What are the dense mudflows formed when volcanic ash mixes with water called?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "lahars"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q13",
+      "question": "How does rock melt where two plates pull apart, without any extra heat being supplied?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "decompression melting"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q14",
+      "question": "Which eruption is held up as the case where warnings worked and lives were saved?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "pinatubo"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q15",
+      "question": "Where is the sticky silica-rich magma generated, and which hazard does it produce?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "subduction",
+        "pyroclastic"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q16",
+      "question": "Which node in the heart acts as the pacemaker?",
+      "gold_doc_ids": [
+        "circulatory_system"
+      ],
+      "answer_keywords": [
+        "sinoatrial node"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q17",
+      "question": "Which vessels are the site of exchange between blood and the tissues?",
+      "gold_doc_ids": [
+        "circulatory_system"
+      ],
+      "answer_keywords": [
+        "capillaries"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q18",
+      "question": "Why is one side of the heart noticeably more muscular than the other?",
+      "gold_doc_ids": [
+        "circulatory_system"
+      ],
+      "answer_keywords": [
+        "left ventricle"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q19",
+      "question": "What is the fatty narrowing of vessels that can end in a heart attack?",
+      "gold_doc_ids": [
+        "circulatory_system"
+      ],
+      "answer_keywords": [
+        "atherosclerosis",
+        "myocardial infarction"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q20",
+      "question": "What sets the rhythm of the heart, and what carries oxygen in the blood it pumps?",
+      "gold_doc_ids": [
+        "circulatory_system"
+      ],
+      "answer_keywords": [
+        "sinoatrial",
+        "haemoglobin"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q21",
+      "question": "Which enzyme do the quinolone antibiotics inhibit?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "dna gyrase"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q22",
+      "question": "What is the transfer of resistance genes between bacteria on plasmids called?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "horizontal gene transfer"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q23",
+      "question": "Why will these drugs do nothing for a common cold?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "viruses"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q24",
+      "question": "What is given alongside a penicillin so that bacterial enzymes cannot break it down?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "clavulanic acid"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q25",
+      "question": "Which part of the bacterial cell do beta-lactams disrupt, and which enzyme defeats them?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "peptidoglycan",
+        "beta-lactamase"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q26",
+      "question": "Which mission architecture did the Apollo planners adopt?",
+      "gold_doc_ids": [
+        "apollo_programme"
+      ],
+      "answer_keywords": [
+        "lunar orbit rendezvous"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q27",
+      "question": "Which launch vehicle carried the Apollo spacecraft?",
+      "gold_doc_ids": [
+        "apollo_programme"
+      ],
+      "answer_keywords": [
+        "saturn v"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q28",
+      "question": "What did the returned rock samples suggest about how the Moon came to exist?",
+      "gold_doc_ids": [
+        "apollo_programme"
+      ],
+      "answer_keywords": [
+        "giant impact hypothesis"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q29",
+      "question": "Which flight was cut short by a burst tank, and how did the crew get home?",
+      "gold_doc_ids": [
+        "apollo_programme"
+      ],
+      "answer_keywords": [
+        "apollo 13",
+        "lifeboat"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q30",
+      "question": "Which earlier programme proved docking in orbit, and which accident forced a redesign?",
+      "gold_doc_ids": [
+        "apollo_programme"
+      ],
+      "answer_keywords": [
+        "gemini",
+        "apollo 1"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q31",
+      "question": "What is the efficiency ceiling of a single-junction photovoltaic cell called?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "shockley-queisser"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q32",
+      "question": "What is the theoretical maximum share of wind energy a rotor can extract called?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "betz limit"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q33",
+      "question": "Why does a modest increase in wind speed matter so much when choosing a site?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "cube"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q34",
+      "question": "Which figure compares what a plant actually produces in a year with running flat out all year?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "capacity factor"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q35",
+      "question": "What caps the efficiency of a silicon cell, and what capacity factor does solar typically reach?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "shockley-queisser",
+        "capacity factor"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q36",
+      "question": "What is the repeated division of a matching B lymphocyte called?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "clonal expansion"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q37",
+      "question": "Why must influenza vaccines be reformulated every year?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "antigenic drift"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q38",
+      "question": "What shields a newborn who is too young to be immunised when nearly everyone else is protected?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "herd immunity"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q39",
+      "question": "Which ingredient strengthens the response to a vaccine without being a target itself?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "adjuvant"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q40",
+      "question": "Which cells make a second exposure faster, and which vaccine type protects for life after one or two doses?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "memory cells",
+        "live attenuated"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q41",
+      "question": "What are the single-celled algae living inside coral tissue called?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "zooxanthellae"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q42",
+      "question": "Which mineral does a coral polyp deposit to form its skeleton?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "aragonite"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q43",
+      "question": "Why does a reef turn white after weeks of unusually warm water?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "bleaching"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q44",
+      "question": "Which starfish strips living tissue straight off the coral?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "crown-of-thorns"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q45",
+      "question": "What supplies most of the energy a coral uses, and which chemical shift makes building a skeleton harder?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "zooxanthellae",
+        "carbonate"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q46",
+      "question": "Which theory explains the sudden slip of a fault that friction had locked?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "elastic rebound"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q47",
+      "question": "Which seismic wave cannot pass through the outer core, and why?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "s wave",
+        "shear"
+      ],
+      "kind": "lexical"
+    },
+    {
+      "qid": "q48",
+      "question": "How can a single recording station work out how far away the source was?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "p wave",
+        "s wave"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q49",
+      "question": "Why do buildings on soft ground fare worse than those founded on solid rock?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "amplifies",
+        "liquefaction"
+      ],
+      "kind": "paraphrased"
+    },
+    {
+      "qid": "q50",
+      "question": "Which kind of fault produces the very largest events, and which waves do most of the damage?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "thrust",
+        "surface waves"
+      ],
+      "kind": "multi_hop"
+    },
+    {
+      "qid": "q51",
+      "question": "Which small tremors give warning that magma is forcing a path upward?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "swarms"
+      ],
+      "kind": "confusable",
+      "note": "Wording points at the earthquakes document; the answer is in the volcano monitoring section."
+    },
+    {
+      "qid": "q52",
+      "question": "Which gas injected high into the atmosphere by the biggest eruptions cools the planet for a year or more?",
+      "gold_doc_ids": [
+        "volcanoes"
+      ],
+      "answer_keywords": [
+        "sulphur dioxide"
+      ],
+      "kind": "confusable",
+      "note": "Climate vocabulary overlaps the water cycle and renewable energy documents."
+    },
+    {
+      "qid": "q53",
+      "question": "How does dissolved carbon dioxide change the acidity of seawater?",
+      "gold_doc_ids": [
+        "coral_reefs"
+      ],
+      "answer_keywords": [
+        "carbonic acid"
+      ],
+      "kind": "confusable",
+      "note": "Shares ocean and water vocabulary with the water cycle document."
+    },
+    {
+      "qid": "q54",
+      "question": "How is sunlight turned straight into electricity?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "photovoltaic"
+      ],
+      "kind": "confusable",
+      "note": "Shares light-energy vocabulary with the photosynthesis document."
+    },
+    {
+      "qid": "q55",
+      "question": "Which everyday measures cut the spread of resistant strains between patients?",
+      "gold_doc_ids": [
+        "antibiotics"
+      ],
+      "answer_keywords": [
+        "hand hygiene"
+      ],
+      "kind": "confusable",
+      "note": "Public-health wording overlaps the vaccination document."
+    },
+    {
+      "qid": "q56",
+      "question": "What is the slow first reaction to an infection that takes one or two weeks to build?",
+      "gold_doc_ids": [
+        "vaccination"
+      ],
+      "answer_keywords": [
+        "primary response"
+      ],
+      "kind": "confusable",
+      "note": "Immune vocabulary overlaps the antibiotics and circulatory documents."
+    },
+    {
+      "qid": "q57",
+      "question": "What was the original evidence that the deep interior of the planet holds a liquid layer?",
+      "gold_doc_ids": [
+        "earthquakes"
+      ],
+      "answer_keywords": [
+        "shadow zone"
+      ],
+      "kind": "confusable",
+      "note": "Shares mantle and interior vocabulary with the volcano document."
+    },
+    {
+      "qid": "q58",
+      "question": "Which pigment absorbs blue and red light most strongly?",
+      "gold_doc_ids": [
+        "photosynthesis"
+      ],
+      "answer_keywords": [
+        "chlorophyll"
+      ],
+      "kind": "confusable",
+      "note": "Light absorption also appears in the renewable energy document as band-gap absorption."
+    },
+    {
+      "qid": "q59",
+      "question": "Which leaf openings let carbon dioxide in and water vapour out?",
+      "gold_doc_ids": [
+        "photosynthesis",
+        "water_cycle"
+      ],
+      "answer_keywords": [
+        "stomata"
+      ],
+      "kind": "confusable",
+      "note": "Genuinely answered by two documents, so it tests recall over more than one gold document."
+    },
+    {
+      "qid": "q60",
+      "question": "Which form of storage still accounts for the largest grid storage capacity?",
+      "gold_doc_ids": [
+        "renewable_energy"
+      ],
+      "answer_keywords": [
+        "pumped hydroelectric"
+      ],
+      "kind": "confusable",
+      "note": "The word storage plus water pulls the lexical retriever towards the water cycle document."
+    }
+  ]
+}

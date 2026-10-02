@@ -1,0 +1,3 @@
+-r requirements-dense.txt
+pytest>=8.0
+matplotlib>=3.7
